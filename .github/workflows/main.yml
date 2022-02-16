@@ -29,12 +29,16 @@ jobs:
          uses: actions/setup-node@v2.5.1
          with:
              node-version: '16'
-      - name: GitHub Action for Yarn
-        uses: Borales/actions-yarn@v2.3.0
+      - name: Installing Yarn
+      - uses: borales/actions-yarn@v2.3.0
         with:
-         cmd: install
-      - name: Creating Build
-        run: npm run build
+          cmd: install # will run `yarn install` command
+      - uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: build # will run `yarn build` command
+      - uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: test # will run `yarn test` command
       - name: installing surge
         run: npm install -g surge
       
