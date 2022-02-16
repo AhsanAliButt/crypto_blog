@@ -43,4 +43,4 @@ jobs:
         run: npm install -g surge
       
       - name: deploying on surge
-        run:  surge ./build http://ahsan_react1.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run:  surge ./build http://ahsan_react1.surge.sh/ --token ${{secrets.c3efb337d54a07741860bc1e7c4d431b}}
