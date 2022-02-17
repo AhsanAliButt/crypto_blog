@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       Hellow world...Is it working /.? Commiting git.
       <button className="btn btn-danger">
-Connecting react
+Connecting Bootstrap
       </button>
     </div>
   );
