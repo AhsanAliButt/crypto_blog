@@ -1,13 +1,11 @@
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Assignment1 from './Assignment1.js';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      Hellow world...Is it working /.? Commiting git.
-      <button className="btn btn-danger">
-Connecting Bootstrap
-      </button>
+      <Assignment1 blogname="Crypto Mythologies"/>
     </div>
   );
 }
