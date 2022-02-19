@@ -28,7 +28,7 @@ const Assignment1 = (props) => {
 
                 <h5 className="card-title m-2 p-2">Shiba inu</h5>
                 <p className="card-text m-2 p-2">.Shiba Inu is an Ethereum-based altcoin that features the Shiba Inu hunting dog as its mascot. ... Shiba Inu was created in August 2020 by an individual or group called Ryoshi. Shiba Inu's price peaked more than tenfold on Oct. 29, 2021, giving it a market capitalization of $41 billion.</p>
-                <p class="card-text m-2 p-2"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <p className="card-text m-2 p-2"><small className="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
 
@@ -40,7 +40,7 @@ const Assignment1 = (props) => {
 
                 <h5 className="card-title m-2 p-2">Gala Metaverse</h5>
                 <p className="card-text m-2 p-2">The GALA tokens are the digital utility tokens of the Gala Games Ecosystem that operates on the Ethereum blockchain and conforms to the ERC-20 standard. More specifically, the non-refundable utility token is cryptographically secured and used as a medium of exchange between participants in the ecosystem.</p>
-                <p class="card-text m-2 p-2"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <p className="card-text m-2 p-2"><small className="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
 
@@ -64,15 +64,15 @@ const Assignment1 = (props) => {
               <div className="col text-start bg1">
                 <h5 className="fw-bold fst-italic mt-2">Archives</h5><br></br>
                 <br></br>
-                <ul class="list-unstyled ms-3">
-                  <li><a href="#" class="link-primary">January 2010</a></li>
-                  <li><a href="#" class="link-primary">January 2011</a></li>
+                <ul className="list-unstyled ms-3">
+                  <li><a href="/" className="link-primary">January 2010</a></li>
+                  <li><a href="/" className="link-primary">January 2011</a></li>
 
-                    <li><a href="#" class="link-primary">January 2012</a></li>
-                    <li><a href="#" class="link-primary">January 2013</a></li>
+                  <li><a href="/" className="link-primary">January 2012</a></li>
+                  <li><a href="/" className="link-primary">January 2013</a></li>
 
-                  <li><a href="#" class="link-primary">January 2014</a></li>
-                  <li><a href="#" class="link-primary">January 2015</a></li>
+                  <li><a href="/" className="link-primary">January 2014</a></li>
+                  <li><a href="/" className="link-primary">January 2015</a></li>
                 </ul>
               </div>
             </div>
