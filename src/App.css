@@ -119,3 +119,14 @@ font-style: italic;
  margin: 0;
  padding: 0;
 }
+.l1{
+background-image:url('./assets/fire_gifs.gif');
+background-size: cover;
+-webkit-background-clip: text;
+color:transparent;
+
+}
+.navMenu{
+  margin-right: -10px;
+  height: 30px;
+}
