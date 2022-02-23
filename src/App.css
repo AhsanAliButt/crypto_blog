@@ -127,6 +127,8 @@ color:transparent;
 
 }
 .navMenu{
+  margin:0;
   margin-right: -10px;
-  height: 30px;
+  height: 20px;
+  padding:0;
 }
