@@ -13,7 +13,7 @@ export const Main=()=>{
               <h5 className="fw-bold fst-italic mt-2">About</h5><br></br>
               <p className="fw-bold text-wrap"> In 2009, the first decentralized cryptocurrency, bitcoin, was created by presumably pseudonymous developer Satoshi Nakamoto. It used SHA-256, a cryptographic hash function, in its proof-of-work scheme.</p>
             </div>
-            <div className="row side1 mt-3 ms-2">
+            <div className="row side1 m-0 p-0 mt-3">
               <div className="col text-start bg1">
                 <h5 className="fw-bold fst-italic mt-2">Archives</h5><br></br>
                 <br></br>

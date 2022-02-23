@@ -23,9 +23,9 @@ export const NavBar = () => {
                         <Dropdown />
                         <Link linkname="Contact Us" />
                         </ul>
-                    <form className="d-flex">
+                    <form className="d-flex bc">
                         {/* <Input /> */}
-                        <input className="form-control m-1 " type="search" placeholder="Search" aria-label="Search" />
+                        <input className="form-control s1" type="search" placeholder="Search" aria-label="Search" />
                         <Button buttonname="Search" color="gray" textColor="white" />
                     </form>
                 </div>
