@@ -5,16 +5,18 @@ import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 import { Header } from './components/header/Header.js';
 import { Main } from './components/main/Main.js';
 import { Footer } from './components/footer/Footer.js';
-import { NavBar } from './components/navbar/navBar.js'
+// import { img,intro,names } from './components/variables/variables.js';
+// import { NavBar } from './components/navbar/navBar.js'
 const Assignment1 = (props) => {
 
   return (
     <>
     {/* Main Container Starts */}
+    {/* <NavBar /> */}
       <div className="container-fluid">
         {/* // NaviGation Bar Section // */}
 
-        <NavBar />
+        {/* <NavBar /> */}
 
         {/* // NaviGation Bar Section // */}
         <div className="container">
@@ -32,8 +34,13 @@ const Assignment1 = (props) => {
 
         {/* Post Area Starts */}
         </div>
-
+        {/* U can post By following Method */}
         <Posts />
+        {/* <Posts coinname={"Name"} coinintro={intro.name} img = {img.nameimg}/> */}
+        {/* You can find all Coin names Names intros and imgs in variable.js file */}
+
+        {/* <Posts coinname={names.shiba} coinintro={intro.shiba} img = {img.shibaimg} /> */}
+        {/* <Posts coinname={names.gala} coinintro={intro.gala} img = {img.galaimg} />  */}
 
         {/* Post Area ends */}
 

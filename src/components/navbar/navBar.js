@@ -6,7 +6,7 @@ import { Dropdown } from "../Links/Links.js";
 // import { Input } from "../forms/Forms.js";
 export const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bn sticky-top border border-primary" style={{ borderRadius: '5px' }}>
+        <nav className="navbar navbar-expand-lg navbar-light bn sticky-top border border-primary " style={{ borderRadius: '5px' }}>
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">
 
