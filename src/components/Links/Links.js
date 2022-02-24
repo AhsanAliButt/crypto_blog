@@ -20,16 +20,6 @@ export const Dropdown = (props) => {
                 <li><a className="dropdown-item" href="/">Bear Market</a></li>
             </ul>
         </li>
-        // <div class="btn-group m-0 p-0 ms-3 mt-2">
-        //     <button class="btn dropdown-toggle fw-bold fs-4 " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-        //         Dropdown
-        //     </button>
-        //     <ul class="dropdown-menu mt-4" aria-labelledby="dropdownMenuButton">
-        //         <li><a class="dropdown-item" href="/">Menu item</a></li>
-        //         <li><a class="dropdown-item" href="/">Menu item</a></li>
-        //         <li><a class="dropdown-item" href="/">Menu item</a></li>
-        //     </ul>
-        // </div>
         
 
     )

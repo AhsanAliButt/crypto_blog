@@ -2,7 +2,7 @@
 export const Header=(props)=>{
     return(
         <div className="row mt-4">
-          <div className="col col1 text-start m-0 p-0">
+          <div className="col-12 col1 text-start m-0 p-0">
             <div className="card bg-dark text-white">
               <img src="https://phantom-marca.unidadeditorial.es/7c4ccd41cb946352fe6e15a6c32773a1/crop/0x0/2041x1150/resize/1320/f/jpg/assets/multimedia/imagenes/2022/01/07/16415655339687.jpg" className="card-img image1" alt="..." />
               <div className="card-img-overlay">
