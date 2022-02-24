@@ -1,5 +1,5 @@
 import './App.css';
-import { Posts } from './components/post/Post.js';
+import { Posts } from './components/post/Posts.js';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 import { Header } from './components/header/Header.js';
