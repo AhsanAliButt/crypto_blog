@@ -1,7 +1,7 @@
 import ReactReadMoreReadLess from 'react-read-more-read-less';
 const Post = (props) => {
     return (
-        <div className="col-4 col2 text-start m-0 p-1 mt-2">
+        <div className="col-4 col-sm-12 col2 text-start m-0 p-1 mt-2">
             <div className="card h-100 m-2">
                 <div className="card-body m-0 p-0">
                     <img src={props.coinimg} className="i1" alt="..." />
