@@ -1,7 +1,7 @@
 export const Link = (props) => {
     return (
-        <li className="nav-item m-0 p-0 ms-3 mt-2 px-1 mx-1">
-            <a className="nav-link active fw-bold m-0 p-0 fs-4 st px-2 mx-2" aria-current="page" href="/">{props.linkname}</a>
+        <li className="nav-item m-0 p-0 ms-2 px-1 mx-1">
+            <a className="nav-link active fw-bold m-0 p-0 fs-5 st mt-2" aria-current="page" href="/">{props.linkname}</a>
 
         </li>
 
@@ -9,8 +9,8 @@ export const Link = (props) => {
 }
 export const Dropdown = (props) => {
     return (
-            <li className="nav-item dropdown m-0 p-0">
-            <a className="nav-link active dropdown-toggle fw-bold fs-4" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown m-0 p-0 ms-3 px-1 mt-2">
+            <a className="nav-link active dropdown-toggle fw-bold fs-5 p-0" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Strategies
             </a>
             <ul className="dropdown-menu dm" aria-labelledby="navbarDropdown">

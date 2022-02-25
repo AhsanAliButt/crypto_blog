@@ -1,4 +1,4 @@
-import logo from "../../assets/btc_logo1.jpg";
+import logo from "../../components/assets/btc_logo1.jpg"
 import "../navbar/navBarStyle.css"
 import  NavBarLinks  from "./navBarLinks.js";
 export const NavBar = () => {
@@ -7,7 +7,7 @@ export const NavBar = () => {
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">
 
-                    <img src={logo} alt="" width="70" height="70" className="rounded-circle d-inline-block fw-bold text-white" />
+                    <img src={logo} alt="" width="50" height="50" className="rounded-circle d-inline-block fw-bold text-white" />
                 </a>
                 <p className="l1 fw-bold fs-2 m-0 p-0">KryptoKnight</p>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
