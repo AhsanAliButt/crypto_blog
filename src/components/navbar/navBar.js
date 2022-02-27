@@ -5,7 +5,7 @@ export const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bn sticky-top border border-primary " style={{ borderRadius: '5px' }}>
             <div className="container-fluid">
-                <a className="navbar-brand" href="/">
+                <a className="navbar-brand" to="/">
 
                     <img src={logo} alt="" width="50" height="50" className="rounded-circle d-inline-block fw-bold text-white" />
                 </a>

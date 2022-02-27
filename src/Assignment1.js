@@ -19,7 +19,7 @@ const Assignment1 = (props) => {
         {/* <NavBar /> */}
 
         {/* // NaviGation Bar Section // */}
-        <div className="container">
+        <div className="container mt-4">
         {/* // NaviGation Bar Section // */}
 
         {/* <NavBar /> */}
@@ -34,13 +34,8 @@ const Assignment1 = (props) => {
 
         {/* Post Area Starts */}
         </div>
-        {/* U can post By following Method */}
+        
         <Posts />
-        {/* <Posts coinname={"Name"} coinintro={intro.name} img = {img.nameimg}/> */}
-        {/* You can find all Coin names Names intros and imgs in variable.js file */}
-
-        {/* <Posts coinname={names.shiba} coinintro={intro.shiba} img = {img.shibaimg} /> */}
-        {/* <Posts coinname={names.gala} coinintro={intro.gala} img = {img.galaimg} />  */}
 
         {/* Post Area ends */}
 
